@@ -1,0 +1,22 @@
+.wrapper {
+  position: relative;
+  isolation: isolate;
+
+  &.dragging {
+    position: static;
+  }
+}
+
+.input {
+  position: absolute;
+  opacity: 0;
+  inset: 0;
+  z-index: 2;
+}
+
+.fullscreen {
+  position: fixed;
+  opacity: 0;
+  inset: 0;
+  z-index: 2;
+}

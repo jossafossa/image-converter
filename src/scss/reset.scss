@@ -1,0 +1,17 @@
+// reset
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+button,
+input {
+  font: inherit;
+  border: none;
+}
+
+body {
+  font-family: sans-serif;
+  min-height: 100dvh;
+}

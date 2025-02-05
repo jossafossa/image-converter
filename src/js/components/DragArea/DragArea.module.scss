@@ -1,0 +1,13 @@
+.dragArea {
+  position: fixed;
+  inset: 0.5rem;
+  pointer-events: none;
+  opacity: 1;
+  display: grid;
+  place-items: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 1rem;
+  border: 0.5rem solid rgba(0, 0, 0, 0.5);
+  font-size: 2rem;
+  color: white;
+}

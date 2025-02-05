@@ -1,0 +1,18 @@
+.button {
+  --border: 4px;
+  --padding: 16px;
+  --height: var(--input-height);
+  --background: black;
+  --color: white;
+  --background-active: white;
+  --color-active: black;
+  border: none;
+  padding: 0 var(--padding);
+  height: var(--height);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--background);
+  color: var(--color);
+  font-weight: 700;
+}
